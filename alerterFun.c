@@ -1,11 +1,11 @@
 #include "alerterFun.h"
 
-int emailAlerter()
+emailAlerter()
 {
-    return emailAlertCallCount+=1;
+   emailAlertCallCount+=1;
 }
 
-int ledAlerter()
+ledAlerter()
 {
-    return ledAlertCallCount+=1;
+    ledAlertCallCount+=1;
 }
