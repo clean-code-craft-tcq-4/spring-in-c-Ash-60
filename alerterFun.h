@@ -1,7 +1,7 @@
 #include "stats.h"
 #include <stdlib.h>
 
-emailAlerter();
-ledAlerter();
+int emailAlerter();
+int ledAlerter();
 extern int emailAlertCallCount;
 extern int ledAlertCallCount;
