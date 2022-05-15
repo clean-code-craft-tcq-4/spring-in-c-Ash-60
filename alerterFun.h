@@ -1,6 +1,6 @@
 #include <stdlib.h>
 
-emailAlerter();
-ledAlerter();
+void emailAlerter();
+void ledAlerter();
 extern int emailAlertCallCount;
 extern int ledAlertCallCount;
