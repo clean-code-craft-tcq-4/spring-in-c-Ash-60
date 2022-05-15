@@ -21,10 +21,10 @@ struct Stats compute_statistics(const float* numberset, int setlength) {
             {
                 max = numberset[i];
             }
-            average = (average + numberset[i])/2;
+            average = average + numberset[i];
         }
 
-        s.average = average;
+        s.average = average/setlength;
         s.min = min;
         s.max = max;
         return s;
