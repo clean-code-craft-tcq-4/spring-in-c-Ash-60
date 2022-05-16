@@ -1,6 +1,7 @@
 #include "stats.h"
 #include <stdio.h>
 #include <math.h>
+
 #ifdef NAN
 /* NAN is supported */
 #endif
