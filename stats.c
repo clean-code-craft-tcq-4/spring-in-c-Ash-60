@@ -9,6 +9,9 @@
 /* INFINITY is supported */
 #endif
 
+int emailAlertCallCount;
+int ledAlertCallCount;
+
 struct Stats compute_statistics(const float* numberset, int setlength) {
     struct Stats s;
     int i;
@@ -50,6 +53,8 @@ void check_and_alert(float maxThreshold, alerter_funcptr alerters[], struct Stat
     {
         alerters[0];
         alerters[1];
+        emailAlertCallCount+=1;
+        ledAlertCallCount+=1;
     }
 }
 
