@@ -24,9 +24,9 @@ TEST_CASE("average is NaN for empty array") {
     //NAN (not-a-number), as defined in math.h
     //REQUIRE(isinf(computedStats.average));
     //REQUIRE(computedStats.average == isinf(NAN));
-    REQUIRE(std::isnan(computedStats.average)==1);
-    REQUIRE(std::isnan(computedStats.max));
-    REQUIRE(std::isnan(computedStats.min));
+    REQUIRE(isnan(computedStats.average)==1);
+    REQUIRE(isnan(computedStats.max));
+    REQUIRE(isnan(computedStats.min));
 
     //REQUIRE(computedStats.average != computedStats.average);
     //Design the REQUIRE statement here.
